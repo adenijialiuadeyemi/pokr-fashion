@@ -5,7 +5,7 @@ import Image from "next/image";
 import { Bell, Mail, ChevronDown } from "lucide-react";
 export default function Navbar() {
   return (
-    <nav className="flex items-center justify-between py-4 px-6 border-b border-white/10">
+    <nav className="sticky top-0 z-50 bg-[#141414] flex items-center justify-between py-4 px-6 border-b border-gray-600">
       <Link href="/" className="text-xl font-bold text-[#8338EC]">
         <Image
           src="/logo.png"
@@ -22,8 +22,8 @@ export default function Navbar() {
         <Link href="/collections">My Collections</Link>
       </div>
 
-      <div className="flex items-center gap-4">
-        <Button className="bg-[#8338EC] rounded-full py-2 px-4 hidden lg:block hover:bg-[#712fd1] text-white cursor-pointer">
+      <div className="flex items-center gap-8">
+        <Button className="bg-[#8338EC] rounded-full py-3 px-8 hidden lg:block hover:bg-[#712fd1] text-white cursor-pointer">
           Publish a Project
         </Button>
         <div className="flex items-center gap-4">

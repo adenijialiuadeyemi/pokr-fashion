@@ -3,6 +3,7 @@ import "./globals.css";
 import { Providers } from "./Providers";
 import Navbar from "@/components/Navbar";
 import PurchaseCard from "@/components/PurchaseCard";
+import AboutArtist from "@/components/AboutArtist";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,9 +32,10 @@ export default function RootLayout({ children }) {
             <main className="py-8 flex-grow">
               <div className="max-w-8xl mx-auto px-4">
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
-                  <div className="lg:col-span-9">{children}</div>
-                  <div className="hidden lg:block lg:col-span-3">
+                  <div className="lg:col-span-8">{children}</div>
+                  <div className="hidden lg:block lg:col-span-4">
                     <PurchaseCard />
+                    <AboutArtist />
                   </div>
                 </div>
               </div>
