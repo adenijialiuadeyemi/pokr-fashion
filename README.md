@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# POKR-Fashion UI
 
-## Getting Started
+A modern, responsive fashion showcase interface built with **Next.js**, **Zustand**, and **HeroUI**. This project demonstrates dynamic UI behavior, state management, and responsive design principles using production-ready frontend technologies.
 
-First, run the development server:
+> 📝 Developed as part of a frontend development interview assessment to evaluate proficiency in modern UI development, component architecture, and user experience design.
+
+---
+
+## 🔗 Live Demo
+
+👉 [View Live Project](https://aliu-adeniji-pokr-fashion.vercel.app/)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Next.js** – React framework for SSR and optimized web performance
+- **Zustand** – Lightweight state management for React
+- **HeroUI** – Customizable, accessible UI components styled with Tailwind CSS
+- **Lucide React** – Icon library for scalable and accessible SVG icons
+- **Tailwind CSS** – Utility-first CSS framework for fast UI development
+
+---
+
+## ✨ Features
+
+- Interactive dress showcase with animated transitions
+- Thumbnail navigation and image carousel
+- Mobile-friendly dropdown navigation menu
+- Fully responsive layout across all screen sizes
+- Optimized image handling with `next/image`
+- State managed efficiently using Zustand
+- Hover effects and visual feedback for enhanced UX
+
+---
+
+## 📁 Project Folder Structure
+
+The project is organized into the following directories for clarity and scalability:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+.
+├── components/         # Reusable UI components
+├── public/             # Static assets (images, logos, etc.)
+├── styles/             # Global and component-specific styles
+├── pages/              # Next.js routing and views
+└── store/              # Zustand store configuration and state management
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Getting Started
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+To run the project locally:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+git clone https://github.com/adenijialiuadeyemi/pokr-fashion.git
+cd pokr-fashion
+npm install
+npm run dev
 
-## Learn More
+Open http://localhost:3000 to view it in your browser.
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 📌 Purpose
+This project was designed to:
+- Demonstrate practical frontend development skills
+- Showcase ability to interpret and implement a given UI from a Figma design
+- Highlight proficiency in modern React tooling and best practices
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📬 Contact
+For questions or opportunities, feel free to reach out:
+- Email: adenijialiuadeyemi@gmail.com
+- Portfolio: https://adeniji-aliu-porfolio.vercel.app
+- GitHub: @adenijialiuadeyemi
+- LinkedIn: www.linkedin.com/in/aliu-adeniji-927631202
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ⭐️ Acknowledgments
+Thanks to the team and evaluators for the opportunity to demonstrate my skills through this project.
