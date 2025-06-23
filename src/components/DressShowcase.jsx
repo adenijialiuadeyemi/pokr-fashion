@@ -100,11 +100,11 @@ const DressShowcase = () => {
           </div>
 
           {/* Main Display */}
-          {/* <div className="lg:col-span-10 order-1 lg:order-2 relative "> */}
           <Card className="h-[70vh] lg:h-[80vh] bg-gradient-to-b from-gray-800/50 to-gray-900/50 border-gray-700 rounded-2xl relative lg:col-span-10 order-1 lg:order-2">
-            <CardBody className="p-0 relative flex items-center justify-center">
+            <CardBody className="p-0 relative h-full w-full">
+              {/* Image Fill */}
               <div
-                className={`transition-all duration-300 ${
+                className={`absolute inset-0 transition-all duration-300 ${
                   isTransitioning
                     ? "opacity-0 scale-95"
                     : "opacity-100 scale-100"
@@ -113,9 +113,8 @@ const DressShowcase = () => {
                 <Image
                   src={currentDress.mainImage}
                   alt={currentDress.title}
-                  width={1000}
-                  height={1000}
-                  className="top-0 left-0 w-full h-full object-cover rounded-2xl"
+                  fill
+                  className="object-fill w-full h-full rounded-2xl"
                   priority
                 />
               </div>
@@ -123,7 +122,7 @@ const DressShowcase = () => {
               {/* Navigation Arrows */}
               <Button
                 isIconOnly
-                className="absolute left-4 top-1/2 -translate-y-1/2 bg-black/30 hover:bg-black/50 text-white z-10"
+                className="absolute left-4 top-1/2 -translate-y-1/2 bg-black/30 hover:bg-black/50 text-white z-10 cursor-pointer"
                 onPress={handlePrev}
               >
                 <ChevronLeft size={24} color="#fff" />
@@ -131,7 +130,7 @@ const DressShowcase = () => {
 
               <Button
                 isIconOnly
-                className="absolute right-4 top-1/2 -translate-y-1/2 bg-black/30 hover:bg-black/50 text-white z-10"
+                className="absolute right-4 top-1/2 -translate-y-1/2 bg-black/30 hover:bg-black/50 text-white z-10 cursor-pointer"
                 onPress={handleNext}
               >
                 <ChevronRight size={24} color="#fff" />
@@ -145,7 +144,6 @@ const DressShowcase = () => {
               </div>
             </CardBody>
           </Card>
-          {/* </div> */}
         </div>
 
         {/* Mobile Dots */}

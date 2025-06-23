@@ -5,7 +5,7 @@ import Image from "next/image";
 import { Bell, Mail, ChevronDown } from "lucide-react";
 export default function Navbar() {
   return (
-    <nav className="sticky top-0 z-50 bg-[#141414] flex items-center justify-between py-4 px-6 border-b border-gray-600">
+    <nav className="sticky top-0 z-50 bg-[#141414] flex items-center justify-between py-3 px-6 border-b border-gray-600">
       <Link href="/" className="text-xl font-bold text-[#8338EC]">
         <Image
           src="/logo.png"

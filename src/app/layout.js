@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
               <div className="max-w-8xl mx-auto px-4">
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-0">
                   <div className="lg:col-span-8">{children}</div>
-                  <div className="flex flex-col lg:block lg:col-span-4">
+                  <div className="flex flex-col w-full lg:block lg:col-span-4">
                     <PurchaseCard />
                     <AboutArtist />
                   </div>
