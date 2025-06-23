@@ -5,7 +5,7 @@ import Image from "next/image";
 import { MapPin } from "lucide-react";
 export default function AboutArtist() {
   return (
-    <div className="mt-8 px-4 w-full max-w-xl mx-auto ">
+    <div className="mt-4 px-4 w-full max-w-xl mx-auto ">
       <Card className="bg-[#141414] text-white rounded-xl border border-gray-700">
         <CardHeader className="pb-4 px-2 mt-4 flex items- justify-center border-b border-gray-700 text-center">
           <h3 className="text-xl font-semibold text-center">

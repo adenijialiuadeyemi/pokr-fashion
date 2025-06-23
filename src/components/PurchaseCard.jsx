@@ -5,7 +5,7 @@ import { Info } from "lucide-react";
 
 export default function PurchaseCard() {
   return (
-    <div className="mt-8 px-4 w-full max-w-xl mx-auto ">
+    <div className="px-4 w-full max-w-xl mx-auto max-md:mt-4 max-md:flex flex-col">
       <Card className="bg-[#141414] text-white rounded-xl border border-gray-700">
         <CardHeader className="flex flex-col items-center gap-4 text-center pt-8">
           <h2 className="text-4xl font-semibold">$35,000.00</h2>
