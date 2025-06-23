@@ -34,14 +34,18 @@ A modern, responsive fashion showcase interface built with **Next.js**, **Zustan
 
 ---
 
-## 📁 Folder Structure Overview
+## 📁 Project Folder Structure
 
+The project is organized into the following directories for clarity and scalability:
+
+```bash
 .
-├── components/ # Reusable UI components
-├── public/ # Static assets (images, logos)
-├── styles/ # Global and component-specific styles
-├── pages/ # Next.js routing and views
-└── store/ # Zustand store configuration
+├── components/         # Reusable UI components
+├── public/             # Static assets (images, logos, etc.)
+├── styles/             # Global and component-specific styles
+├── pages/              # Next.js routing and views
+└── store/              # Zustand store configuration and state management
+```
 
 ## 🚀 Getting Started
 
