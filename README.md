@@ -8,7 +8,7 @@ A modern, responsive fashion showcase interface built with **Next.js**, **Zustan
 
 ## 🔗 Live Demo
 
-👉 [View Live Project](https://your-live-demo-link.com)
+👉 [View Live Project](https://aliu-adeniji-pokr-fashion.vercel.app/)
 
 ---
 
