@@ -68,7 +68,7 @@ const DressShowcase = () => {
   const currentDress = dresses[currentIndex];
 
   return (
-    <div className="min-h-[80vh] bg-[#141414] rounded-2xl border border-gray-600 py-4 px-2">
+    <div className="min-h-[80vh] bg-[#141414] rounded-2xl border border-gray-700 py-4 px-2">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 h-full p-2">
           {/* Thumbnail Navigation */}

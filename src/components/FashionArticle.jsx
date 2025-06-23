@@ -5,7 +5,7 @@ import { Eye, MoreHorizontal, Bookmark } from "lucide-react";
 const FashionArticle = () => {
   return (
     <div className="max-w-7xl mx-auto my-4">
-      <Card className="bg-gradient-to-b from-gray-800/80 to-gray-900/80 backdrop-blur-sm border-gray-700 shadow-2xl rounded-2xl border ">
+      <Card className="bg-[#141414] backdrop-blur-sm border-gray-700 shadow-2xl rounded-2xl border ">
         <CardBody className="p-6 md:p-8">
           {/* Header with Title and Top Right Elements */}
           <div className="flex items-start justify-between mb-6">
@@ -33,7 +33,7 @@ const FashionArticle = () => {
 
           {/* Content Text */}
           <div className="mb-8">
-            <p className=" text-sm leading-relaxed font-light text-gray-500">
+            <p className=" text-sm leading-relaxed font-light text-gray-400">
               Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
               vulputate libero et velit interdum, ac aliquet odio mattis. Class
               aptent taciti sociosqu ad litora torquent per conubia nostra, per
