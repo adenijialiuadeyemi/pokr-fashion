@@ -71,7 +71,7 @@ For questions or opportunities, feel free to reach out:
 - Email: adenijialiuadeyemi@gmail.com
 - Portfolio: https://adeniji-aliu-porfolio.vercel.app
 - GitHub: @adenijialiuadeyemi
-- LinkedIn: https://linkedin.com/in/AdenijiAliuAde
+- LinkedIn: www.linkedin.com/in/aliu-adeniji-927631202
 
 ## ⭐️ Acknowledgments
 Thanks to the team and evaluators for the opportunity to demonstrate my skills through this project.
