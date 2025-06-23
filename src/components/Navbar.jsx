@@ -52,6 +52,9 @@ export default function Navbar() {
 
         {/* Right Icons & Buttons */}
         <div className="flex items-center gap-6">
+          <Button className="hidden lg:block bg-[#8338EC] py-2 w-full max-w-xs rounded-full hover:bg-[#712fd1] text-white cursor-pointer">
+            Publish a Project
+          </Button>
           <Bell className="w-5 h-5 text-white cursor-pointer" />
           <Mail className="w-5 h-5 text-white cursor-pointer" />
 
