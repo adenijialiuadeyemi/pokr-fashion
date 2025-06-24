@@ -21,7 +21,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <nav className="sticky top-0 z-50 bg-[#141414] border-b border-gray-600 px-4 py-4">
+    <nav className="sticky top-0 z-50 bg-[#323232] border-b border-gray-600 px-4 py-4">
       <div className="flex items-center justify-between max-w-7xl mx-auto">
         {/* Logo */}
         <Link href="/" className="text-xl font-bold text-[#8338EC]">
